@@ -1,11 +1,11 @@
 public class CharValue {
   public static void main(String[] argv) {
     char  ch;
-    ch = 'b';  // «ü©w¬°³æ¤@­^¤å¦r¥À
-    System.out.println("ÅÜ¼Æ ch ªº¤º®e¬°¡G" + ch);
-    ch = '¤¤'; // «ü©w¬°³æ¤@¤¤¤å¦r
-    System.out.println("ÅÜ¼Æ ch ªº¤º®e¬°¡G" + ch);
-    ch = 98;   // «ü©w¬°¼Æ­È
-    System.out.println("ÅÜ¼Æ ch ªº¤º®e¬°¡G" + ch);
+    ch = 'b';  // æŒ‡å®šç‚ºå–®ä¸€è‹±æ–‡å­—æ¯
+    System.out.println("è®Šæ•¸ ch çš„å…§å®¹ç‚ºï¼š" + ch);
+    ch = 'ä¸­'; // æŒ‡å®šç‚ºå–®ä¸€ä¸­æ–‡å­—
+    System.out.println("è®Šæ•¸ ch çš„å…§å®¹ç‚ºï¼š" + ch);
+    ch = 98;   // æŒ‡å®šç‚ºæ•¸å€¼
+    System.out.println("è®Šæ•¸ ch çš„å…§å®¹ç‚ºï¼š" + ch);
   }
 }
