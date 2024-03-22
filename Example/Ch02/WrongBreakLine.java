@@ -1,7 +1,7 @@
 public class WrongBreakLine {
 	public static void main(String[] argv) {
 		System.out.prin
-		tln("³o¬O§Ú©Ò¼gªº²Ä¤G­ÓJavaµ{¦¡¡A");
-		System.out.println("Åã¥Ü§óÂ×´Iªº¸ê°TÅo¡I");
+		tln("é€™æ˜¯æˆ‘æ‰€å¯«çš„ç¬¬äºŒå€‹Javaç¨‹å¼ï¼Œ");
+		System.out.println("é¡¯ç¤ºæ›´è±å¯Œçš„è³‡è¨Šå›‰ï¼");
 	}
 }

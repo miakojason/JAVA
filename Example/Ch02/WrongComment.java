@@ -1,5 +1,5 @@
 public class WrongComment {
-	public static void ma/*¿ù»~:µù¸Ñ¤£¥i¦b¦r²Å¤º*/in(String[] argv) {
-		System.out.println("§Úªº²Ä¤@­ÓJavaµ{¦¡¡C");
+	public static void ma/*éŒ¯èª¤:è¨»è§£ä¸å¯åœ¨å­—ç¬¦å…§*/in(String[] argv) {
+		System.out.println("æˆ‘çš„ç¬¬ä¸€å€‹Javaç¨‹å¼ã€‚");
 	}
 }

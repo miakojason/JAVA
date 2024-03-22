@@ -1,5 +1,5 @@
 public class FirstJava {
 	public static void main(String[] argv) {
-		System.out.println("§Úªº²Ä¤@­ÓJavaµ{¦¡¡C");
+		System.out.println("æˆ‘çš„ç¬¬ä¸€å€‹Javaç¨‹å¼ã€‚");
 	}
 }
