@@ -14,12 +14,12 @@ class Sorter {
     int right = end;
     while(left < right) { // 還未相遇
       // 往尾端搜尋
-      while((left < end) && (data[left] < mid)) {
+      while((left < end) && (data[left] > mid)) {
         left++;
       }
 
       // 往前端搜尋
-      while((right > start) && (data[right] > mid)) {
+      while((right > start) && (data[right] < mid)) {
         right--;
       }
 

@@ -1,26 +1,26 @@
-class IcCard {  // ¥Nªí IC ¥dªºÃş§O
-  long id;      // ¥d¸¹
-  int money;    // ¥d¤ù¾lÃB
+class IcCard {  // ä»£è¡¨ IC å¡çš„é¡åˆ¥
+  long id;      // å¡è™Ÿ
+  int money;    // å¡ç‰‡é¤˜é¡
 
-  void showInfo() {  // Åã¥Ü¥d¤ù¸ê°Tªº¤èªk
-    System.out.print("¥d¤ù¥d¸¹ "+ id);
-    System.out.println(", ¾lÃB " + money + " ¤¸ ");
+  void showInfo() {  // é¡¯ç¤ºå¡ç‰‡è³‡è¨Šçš„æ–¹æ³•
+    System.out.print("å¡ç‰‡å¡è™Ÿ "+ id);
+    System.out.println(", é¤˜é¡ " + money + " å…ƒ ");
   }
 
-  void add(int value) {  // ¥[­È¤èªk¡G°Ñ¼Æ¬°­n¥[­Èªºª÷ÃB
+  void add(int value) {  // åŠ å€¼æ–¹æ³•ï¼šåƒæ•¸ç‚ºè¦åŠ å€¼çš„é‡‘é¡
     money += value;
-    System.out.println("¥[­È¦¨¥\, ¥»¦¸¥[­È " + value + " ¤¸ ");
+    System.out.println("åŠ å€¼æˆåŠŸ, æœ¬æ¬¡åŠ å€¼ " + value + " å…ƒ ");
   }
 }
 
 public class AddMoney1 {
   public static void main(String[] argv) {
-    IcCard myCard = new IcCard();   // «Ø¥ßª«¥ó
+    IcCard myCard = new IcCard();   // å»ºç«‹ç‰©ä»¶
 
-    myCard.id = 0x336789AB;  // ³]©w¦¨­ûÅÜ¼Æ­È
+    myCard.id = 0x336789AB;  // è¨­å®šæˆå“¡è®Šæ•¸å€¼
     myCard.money = 300;
 
-    myCard.add(1000);        // ¥[­È 1000
-    myCard.showInfo();       // ©I¥s¤èªk
+    myCard.add(1000);        // åŠ å€¼ 1000
+    myCard.showInfo();       // å‘¼å«æ–¹æ³•
   }
 }
